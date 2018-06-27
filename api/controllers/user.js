@@ -1,5 +1,6 @@
 const User = require("../models/userModels");
 const bcrypt = require("bcrypt");
+//Do we need bcrypt here?
 
 const createUser = (req, res) => {
   const { username, password } = req.body;
